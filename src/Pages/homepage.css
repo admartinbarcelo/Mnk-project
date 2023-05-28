@@ -1,0 +1,78 @@
+.novedades__title {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.01em;
+  position: absolute;
+  width: 316px;
+  height: 77px;
+  left: 124px;
+  top: 1056px;
+}
+
+.cbd__title__container {
+  position: absolute;
+  width: 571px;
+  height: 77px;
+  left: 118px;
+  top: 2382px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.cbd__title {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-left: 40px;
+}
+.ellipse__image {
+  margin-left: 10px;
+}
+
+.cbd__logo {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 22px;
+  bottom: 10px;
+  top: 10px;
+}
+
+.tipos__producto__title {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  position: absolute;
+  height: 42px;
+  left: 121px;
+}
+
+.recomendamos__title{
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  position: absolute;
+  height: 42px;
+  left: 121px;
+  top: 4357px;
+}
+.recomend__container{
+  margin: 120px;
+
+}

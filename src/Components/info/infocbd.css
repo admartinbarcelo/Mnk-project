@@ -1,0 +1,68 @@
+.infocbd__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 450px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.text__icons-container {
+  width: 50%;
+  background: #F7F6F2;;
+}
+
+.image__container {
+  width: 50%;
+  top: 1100px;
+}
+
+.image__container img {
+  width: 100%;
+  height: auto;
+}
+
+.text__icon {
+  display: flex;
+  align-items: center;
+  margin: 60px;
+}
+
+.icon__CBD {
+  margin-right: 80px;
+  width: 60px;
+  height: 60px;
+}
+
+.text {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.button__CBD {
+  position: relative;
+  width: 166px;
+  height: 49px;
+  margin-top: 70px;
+  background: #a5b98e;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  left:190px;
+}
+
+.button__CBD p {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}

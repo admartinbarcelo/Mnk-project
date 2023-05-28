@@ -1,0 +1,145 @@
+.header-container{
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #000;
+}
+
+.kit-image {
+position: absolute;
+width: 704px;
+height: 577px;
+left: 14px;
+top: 244px;
+background: url("../../assets/Kit2.png");
+padding: 10px;
+}
+
+.icon-bottom-left {
+position: absolute;
+bottom: 0;
+left: 0;
+top: 720px;
+margin-left: 40px;
+width: 40px;
+height: 40px;
+}
+
+.icon-bottom-right {
+position: absolute;
+bottom: 0;
+right: 0;
+top: 720px;
+margin-right: 70px;
+width: 40px;
+height: 40px;
+}
+
+.title-container {
+  position: relative;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-left: 1px solid #000;
+  background: #f7f6f2;
+  
+}
+.title {
+font-family: "Neue Montreal";
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+letter-spacing: 0.01em;
+color: #000;
+margin-left: 70px;
+}
+
+.description {
+font-family: "Neue Montreal";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.01em;
+color: #000;
+margin-bottom: 10%;
+margin-left: 70px;
+}
+
+.button {
+  position: relative;
+  width: 166px;
+  height: 49px;
+  margin-top: 70px;
+  background: #a5b98e;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.container-button{
+  position: relative;
+  background: #f7f6f2;
+  margin-left: 70px;
+  margin-bottom: 10%;
+}
+
+
+.button p {
+font-family: "Neue Montreal";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #ffffff;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  border-top: 1px solid #000;
+  gap: 48px;
+  margin-right: 0;
+  width: 100%;
+}
+
+.item-header {
+display: flex;
+align-items: center;
+margin-left: 70px;
+}
+
+.icon {
+width: 24px;
+height: 24px;
+margin-right: 16px;
+}
+
+.item-title {
+font-family: "Neue Montreal";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.01em;
+color: #000000;
+}
+
+.item-description {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #000000;
+  display: inline-block;
+  margin: 10px 0;
+}

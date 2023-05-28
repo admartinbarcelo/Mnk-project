@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "subtitle": "SÉRUM",
+      "name": "Sérum facial Kobe de Savia",
+      "description": "Ayuda a reducir manchas y cicatrices y a combatir los signos de la edad.",
+      "price": "36,99 €",
+      "image": "serum"
+    },
+    {
+      "id": 2,
+      "subtitle": "CREMA",
+      "name": "Crema hidratante Meru de Savia",
+      "description": "Ingredientes altamente hidratante como el aceite de aguacate.",
+      "price": "34,99 €",
+      "image": "crema"
+    },
+    {
+      "id": 3,
+      "subtitle": "LOCIONES",
+      "name": "Loción para manos y cuerpo de Kloris",
+      "description": "Profundamente hidratante pero ligera, mejorando el aspecto de las manos.",
+      "price": "32,00 €",
+      "image": "locion"
+    }
+  ]
+  

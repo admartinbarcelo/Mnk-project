@@ -1,0 +1,115 @@
+.products {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 210px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  height: 1100px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.product.id2 {
+  margin-top: 75px;
+}
+.product:nth-child(1) {
+  border-right: 1px solid #000;
+}
+.product:nth-child(3) {
+  border-left: 1px solid #000;
+}
+.product h3 {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.product p {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-right: 110px;
+  margin-left: 110px;
+}
+
+.product__subtitle {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  background: #f7f6f2;
+  border-radius: 70px;
+  width: 102px;
+  height: 25px;
+}
+.product__subtitle p {
+  width: 39px;
+  height: 18px;
+}
+
+.button {
+  position: relative;
+  width: 166px;
+  height: 49px;
+  margin-top: 70px;
+  background: #a5b98e;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.button p {
+  font-family: "Neue Montreal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.icon-bottom-left-product{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 1020px;
+  margin-left: 40px;
+  width: 40px;
+  height: 40px;
+  }
+  
+  .icon-bottom-right-product {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 1020px;
+  margin-right: 40px;
+  width: 40px;
+  height: 40px;
+  }
